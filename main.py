@@ -10,7 +10,7 @@ app = FastAPI()
 # SECURITY: Allow your Hostinger site to talk to this Repl
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace with your actual domain for better security
+    allow_origins=["https://cfornesa.com", "http://localhost:3000"],  # Replace with your actual domain for better security
     allow_methods=["*"],
     allow_headers=["*"],
 )
