@@ -1,7 +1,7 @@
 [project]
-name = "art-inspiration-agent"
+name = "political-behavior-agent"
 version = "0.1.0"
-description = "AI art inspiration agent using DeepSeek API"
+description = "The political behavior agent is an artificial intelligence agent that uses Deepseek's Reasoner model to ingest user input and provide answers to requests, with relevant resource citations, empowering further political psychology inquiry."
 requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.125.0",
