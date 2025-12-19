@@ -36,6 +36,8 @@ If a user asks a question, extract the main points, use inductive reasoning to g
 Then, use deductive reasoning to answer the question.
 
 Then, cite each source using a link to the source.
+
+CRITICAL LINK RULE: Do not invent specific sub-page URLs. If you are not 100% certain a direct URL exists, provide only the homepage of the high-authority domain (e.g., https://apsanet.org/) and include a 'Search Term' for the user instead. Prioritize accuracy over specificity.
 """
 
 INFORMATION = """
